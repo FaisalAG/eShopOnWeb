@@ -5,11 +5,11 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-eshoponweb-AZDVOPS
+  RESOURCE-GROUP: rg-eshoponweb-DARKWEB
   LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 680813c2-6217-43c7-9afe-7414989aef51
-  WEBAPP-NAME: eshoponweb-webapp-AZDVOPS
+  WEBAPP-NAME: eshoponweb-webapp-DARKWEB
 
 
 jobs:
